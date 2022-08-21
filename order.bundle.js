@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrestaurantpage=self.webpackChunkrestaurantpage||[]).push([[637],{395:(e,a,s)=>{function n(){console.log("order page")}s.d(a,{Z:()=>n})}},e=>{e(e.s=395)}]);
