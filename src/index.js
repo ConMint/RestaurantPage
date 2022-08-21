@@ -28,8 +28,17 @@ menuBtn.addEventListener('click', () => {
     container.appendChild(menuPage())
 })
 
+const orderBtn = document.createElement('button');
+orderBtn.setAttribute('id','orderBtn');
+orderBtn.innerText = 'ORDER';
+orderBtn.addEventListener('click', () => {
+    container.removeChild(canvas);
+    container.appendChild(orderPage())
+})
+
 pageHeader.appendChild(homeBtn);
 pageHeader.appendChild(menuBtn);
+pageHeader.appendChild(orderBtn);
 
 container.appendChild(pageHeader);
 
@@ -37,5 +46,3 @@ container.appendChild(pageHeader);
 container.appendChild(homePage());
 
 contactPage();
-
-orderPage();
