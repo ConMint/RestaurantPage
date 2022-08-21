@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrestaurantpage=self.webpackChunkrestaurantpage||[]).push([[631],{637:(e,a,s)=>{function t(){console.log("contact page")}s.d(a,{Z:()=>t})}},e=>{e(e.s=637)}]);
