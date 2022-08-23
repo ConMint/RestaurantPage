@@ -1,5 +1,8 @@
+
+
 body {
    margin: 0;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
    
 }
 
@@ -43,16 +46,48 @@ body {
     height: 700px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px
 
 }
+
+
 
 /* HOME PAGE */
 .pageHeader {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: fixed;
-    left: 0;
+    left: 50;
+    bottom: 0;
+    
+}
+
+button {
+    width: calc(840px/3);
+    height: calc((100vh - 700px) /2);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid black;
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+
+#homeBtn {
+    background-color: #7F7979
+}
+#menuBtn{
+    background-color: #c1bdb3
+}
+#orderBtn {
+    background-color: #5f5b6b
+}
+
+#homeBtn:hover,#menuBtn:hover,#orderBtn:hover {
+    transform: scale(1.05) perspective(1px);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 #leftside, #rightside {

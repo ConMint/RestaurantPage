@@ -3,7 +3,7 @@ import './style.css';
 import homePage from './homepage.js';
 import menuPage from './menu.js';
 import orderPage from './order.js';
-import contactPage from './contact';
+
 
 // page-wide container
 const container = document.createElement('div');
@@ -40,9 +40,8 @@ pageHeader.appendChild(homeBtn);
 pageHeader.appendChild(menuBtn);
 pageHeader.appendChild(orderBtn);
 
+
 container.appendChild(pageHeader);
 
 
 container.appendChild(homePage());
-
-contactPage();
