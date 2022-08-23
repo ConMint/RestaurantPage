@@ -21,6 +21,7 @@ export default function homePage () {
   
   // restaurant introduction text
   const aboutText = document.createElement('div');
+  aboutText.setAttribute('id','aboutText')
   aboutText.innerText = `Specialising in fresh sushi and authentic Japanese cuisine, the menu at DokoDemo caters for all tastes and appetites, including vegetarian/vegan and gluten-free options. While it may be best known for Sushi, Japanese cuisine is not just raw fish! All our cooked dishes are inspired by traditional Japanese street food, including Tori Karaage (Fried chicken), Yakitori (Grilled Chicken), Tonkatsu, Soup Ramen and Udon noodles.`
   leftside.appendChild(aboutText);
 
