@@ -2,7 +2,8 @@
 
 body {
    margin: 0;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   overflow: hidden;
    
 }
 
@@ -20,8 +21,8 @@ body {
 }
 
 #canvas {
-    width: 800px;
-    height: 700px;
+    width: 40vw;
+    height: 80vh;
     border-radius: 15px;
     background-color: #fff;
     background-color: rgba(253, 253, 253, 0.9);
@@ -37,13 +38,12 @@ body {
 .canvasMenu {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 80px;
     padding: 20px;
 }
 
 .canvasOrder {
-    width: 800px;
-    height: 700px;
     display: flex;
     flex-direction: column;
     padding: 20px
@@ -63,15 +63,15 @@ body {
 }
 
 button {
-    width: calc(840px/3);
-    height: calc((100vh - 700px) /2);
+    width: calc(42.1vw/3);
+    height: 10vh;
     border-bottom: none;
     border-left: none;
     border-right: none;
     border-top: 1px solid black;
     font-size: 20px;
     color: whitesmoke;
-    
+    border-radius: 1px;
 }
 
 #homeBtn {
@@ -125,8 +125,8 @@ button {
 /* MENU PAGE*/
 
 .menuItem {
-    width: 200px;
-    height: 300px;
+    width: 25%;
+    height: 42%;
     border: 1px solid grey;
     border-radius: 15px;
     display: flex;

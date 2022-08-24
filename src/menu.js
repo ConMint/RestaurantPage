@@ -9,7 +9,7 @@ let myMenu = [
         name: 'Sushi Platter',
         price: '4000 yen',
         src: 'https://images.unsplash.com/photo-1625937751876-4515cd8e78bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=949&q=80',
-        about: 'Our world famous sushi platter. Some of everything.',
+        about: 'Our world famous sushi platter.'
     },
 
     {
